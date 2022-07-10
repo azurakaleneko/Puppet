@@ -1,0 +1,95 @@
+body {
+margin: 0;
+padding-top: 800px;
+text-align: center;
+}
+
+.Te {
+border-radius: 0%;
+}
+
+#Verteimpotenteescomomúsicaparamí {
+position:absolute;    
+bottom: 0;
+background:linear-gradient(90deg, rgba(232,93,149,1) 0%, rgba(80,9,121,1) 47%, rgba(78,254,255,1) 100%);
+display: table;
+width: 100%;
+height: 100%;
+}
+
+h1{
+font-size: 30px;
+font-family: sans-serif;
+font-weight: 300;
+}
+
+#Puppet{
+    font-size: 50px;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+h2{
+    font-size: 40px;
+font-family: sans-serif;
+font-weight: 300;
+}
+
+#descripcion{
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+}
+
+.line{
+    height: 6px;
+    background: linear-gradient(90deg, rgba(207,20,231,1) 0%, rgba(66,7,205,1) 47%, rgba(8,2,116,1) 100%);;
+    width: 8px;
+    margin: 8px auto;
+}
+.parallax-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu{
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 38%, rgba(255,255,255,1) 47%, rgba(0,0,0,1) 100%);
+    width: 100%;
+}
+
+.links{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family:'Rubik Moonrocks', cursive;
+    font-size: 20px;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+ 
+a {
+    text-decoration: none;
+}
+ 
+#writings a {
+    text-decoration: underline !important;
+    color: linear-gradient(90deg, rgba(8,2,116,1) 0%, rgba(8,2,116,1) 38%, rgba(102,50,147,1) 47%, rgba(255,0,176,1) 100%) !important;
+}
+ 
+#contact{
+    background:rgb(115, 45, 69);
+}
+ 
+#contact iframe{
+    width: 100%;
+}
+ 
+.contact_1 h3
+{
+    display: inline;
+}
